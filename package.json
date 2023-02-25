@@ -1,0 +1,14 @@
+{
+    "name": "com.tymski.controln",
+    "displayName": "Control + N",
+    "description": "Creating new objects with [CTRL]+[N]. One shortcut for creating scripts, scenes, prefabs, gameObjects, depending on what is selected.",
+    "version": "1.0.0",
+    "unity": "2017.1",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tymski/UnityControlN"
+    },
+    "author": {
+        "name": "Tymski"
+    }
+}
