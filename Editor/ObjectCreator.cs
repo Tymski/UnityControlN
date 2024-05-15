@@ -6,7 +6,7 @@ public static class ObjectCreator
     public static void CreateObject()
     {
         string path = AssetDatabase.GetAssetPath(Selection.activeObject);
-        if (path.Contains("Scripts")) EditorApplication.ExecuteMenuItem("Assets/Create/C# Script");
+        if (path.Contains("Scripts")) EditorApplication.ExecuteMenuItem("Assets/Create/MonoBehaviour Script");
         else if (path.Contains("Scenes")) EditorApplication.ExecuteMenuItem("Assets/Create/Scene");
         else if (path.Contains("Prefabs")) EditorApplication.ExecuteMenuItem("Assets/Create/Prefab");
         else if (path.Contains("PhysicMaterials")) EditorApplication.ExecuteMenuItem("Assets/Create/Physic Material");
